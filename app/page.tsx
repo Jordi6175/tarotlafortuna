@@ -3,8 +3,6 @@ export default function Page() {
     <main
       style={{
         minHeight: "100dvh",
-
-
         backgroundImage:
           "linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('/img/fondoweb.jpg')",
         backgroundSize: "cover",
@@ -17,106 +15,121 @@ export default function Page() {
       <h1
         className="titulo-mistico"
         style={{
-          marginTop: "60px",
+          marginTop: "40px",
           textAlign: "center",
-          fontSize: "120px",
+          fontSize: "60px",
           fontWeight: "900",
           color: "#FFD700",
           fontFamily: "'UnifrakturCook', 'Cinzel', serif",
-          letterSpacing: "6px",
+          letterSpacing: "4px",
         }}
       >
         TAROT LA FORTUNA
       </h1>
 
-      {/* BLOQUE ENCAPUCHADO + BOCADILLO */}
+      {/* HERO CENTRADO IGUAL EN PC Y MÓVIL */}
       <div
-        className="flex flex-row items-start"
         style={{
-          marginTop: "80px",
-          marginLeft: "200px",
-          position: "relative",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          textAlign: "center",
+          marginTop: "40px",
+          width: "100%",
         }}
       >
-        <img
-          src="/img/encapuchado.png"
-          alt="Encapuchado"
-          style={{
-            width: "360px",
-            marginTop: "-20px",
-          }}
-        />
 
-        <div
-  className="bocadillo-mistico"
-  style={{
-    marginLeft: "40px",
-    marginTop: "100px",
-    fontFamily: "'Cinzel', serif",
-    color: "white",
-    fontSize: "20px",
-    lineHeight: "1.4",
-  }}
->
-
+        {/* ENCAPUCHADO
+         */}
         
-          <p>Soy César, tarotista con experiencia en lecturas intuitivas y orientación personal.</p>
-          <p style={{ marginTop: "12px" }}>
-            Te ayudo a entender tu situación, aclarar tus dudas y tomar decisiones con confianza.
-          </p>
-          <p style={{ marginTop: "12px" }}>
-            Mis lecturas son sinceras, directas y enfocadas en darte respuestas reales.
+        <img
+  src="/img/encapuchado.png"
+  alt="encapuchado"
+  style={{
+    width: "260px",
+    height: "auto",
+    marginBottom: "20px",
+  }}
+/>
+
+
+        {/* SPEECH CENTRADO */}
+        <div
+          style={{
+            color: "white",
+            fontFamily: "'Cinzel', serif",
+            fontSize: "20px",
+            lineHeight: "1.4",
+            maxWidth: "90%",
+            marginBottom: "30px",
+          }}
+        >
+          <p>Soy César, tarotista con experiencia.</p>
+          <p style={{ marginTop: "10px" }}>
+            Te ayudo a entender tu situación y tomar decisiones con claridad.
           </p>
         </div>
+
       </div>
 
-      {/* BOTONES PRINCIPALES */}
+      {/* BOTONES PRINCIPALES (UNO SOBRE OTRO EN PC Y MÓVIL) */}
       <div
-        className="flex justify-center mb-20"
         style={{
-          gap: "180px",
-          marginTop: "120px",
+          display: "flex",
+          flexDirection: "column",
+          gap: "20px",
+          alignItems: "center",
+          marginTop: "20px",
+          marginBottom: "60px",
         }}
       >
         {/* WHATSAPP */}
         <a
           href="https://wa.me/34622091189"
           target="_blank"
-          className="flex flex-row items-center justify-center rounded-[35px] shadow-2xl"
           style={{
-            width: "240px",
-            height: "80px",
+            width: "260px",
+            height: "70px",
             backgroundColor: "#00A000",
             fontFamily: "'Cinzel', serif",
             color: "#FFFFFF",
-            fontSize: "26px",
+            fontSize: "24px",
             fontWeight: "bold",
             textDecoration: "none",
+            borderRadius: "35px",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
             boxShadow: "0 0 20px rgba(0,255,0,0.5)",
+            gap: "10px",
           }}
         >
-          <span style={{ fontSize: "40px" }}>✆</span>
-          <span style={{ marginLeft: "12px" }}>WhatsApp</span>
+          <span style={{ fontSize: "32px" }}>✆</span>
+          WhatsApp
         </a>
 
         {/* LLAMAR */}
         <a
           href="tel:622091189"
-          className="flex flex-row items-center justify-center rounded-[35px] shadow-2xl"
           style={{
-            width: "240px",
-            height: "80px",
+            width: "260px",
+            height: "70px",
             backgroundColor: "#0066FF",
             fontFamily: "'Cinzel', serif",
             color: "#FFFFFF",
-            fontSize: "26px",
+            fontSize: "24px",
             fontWeight: "bold",
             textDecoration: "none",
+            borderRadius: "35px",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
             boxShadow: "0 0 20px rgba(0,102,255,0.6)",
+            gap: "10px",
           }}
         >
-          <span style={{ fontSize: "40px" }}>✆</span>
-          <span style={{ marginLeft: "12px" }}>Llamar ahora</span>
+          <span style={{ fontSize: "32px" }}>✆</span>
+          Llamar ahora
         </a>
       </div>
 
@@ -457,15 +470,15 @@ export default function Page() {
           © 2026 Tarot La Fortuna — Girona
         </p>
       </div>
-      {/* BOTÓN WHATSAPP STICKY (SOLO MÓVIL) */}
-<a
-  href="https://wa.me/34622091189"
-  target="_blank"
-  className="whatsapp-sticky"
->
-  <span>✆</span>
-</a>
 
+      {/* BOTÓN WHATSAPP STICKY (SOLO MÓVIL) */}
+      <a
+        href="https://wa.me/34622091189"
+        target="_blank"
+        className="whatsapp-sticky"
+      >
+        <span>✆</span>
+      </a>
 
     </main>
   );
