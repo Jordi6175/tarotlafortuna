@@ -4,7 +4,7 @@ export default function Page() {
       style={{
         minHeight: "100dvh",
         backgroundImage:
-          "linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('/img/fondoweb.jpg')",
+          "linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('/IMG/fondoweb.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -43,17 +43,15 @@ export default function Page() {
         {/* ENCAPUCHADO
          */}
         
-        <img
-
-  src="/img/encapuchado.png"
+<img
+  src="/IMG/encapuchado.png"
   alt="encapuchado"
   style={{
     width: "260px",
     height: "auto",
     marginBottom: "20px",
+    
   }}
-
-
 />
 
 
