@@ -11,6 +11,7 @@ export default function Page() {
       }}
     >
 
+    
       {/* TÍTULO */}
       <h1
         className="titulo-mistico"
@@ -43,6 +44,7 @@ export default function Page() {
          */}
         
         <img
+
   src="/img/encapuchado.png"
   alt="encapuchado"
   style={{
@@ -50,6 +52,8 @@ export default function Page() {
     height: "auto",
     marginBottom: "20px",
   }}
+
+
 />
 
 
@@ -64,10 +68,18 @@ export default function Page() {
             marginBottom: "30px",
           }}
         >
-          <p>Soy César, tarotista con experiencia.</p>
-          <p style={{ marginTop: "10px" }}>
-            Te ayudo a entender tu situación y tomar decisiones con claridad.
-          </p>
+          <p>Soy César, tarotista de Tarot La Fortuna.</p>
+
+<p style={{ marginTop: "10px" }}>
+  Realizo consultas de tarot presenciales en Girona y también atiendo por
+  WhatsApp y teléfono para toda España.
+</p>
+
+<p style={{ marginTop: "10px" }}>
+  Cada consulta es privada, personalizada y enfocada en ayudarte a comprender
+  mejor tu situación. Si tienes dudas sobre el amor, el trabajo, el dinero o
+  una decisión importante, recibirás una lectura clara, sincera y cercana.
+</p>
         </div>
 
       </div>
@@ -132,6 +144,139 @@ export default function Page() {
           Llamar ahora
         </a>
       </div>
+      <div
+  style={{
+    textAlign: "center",
+    marginTop: "-30px",
+    marginBottom: "80px",
+    color: "#FFD700",
+    fontFamily: "'Cinzel', serif",
+    fontSize: "20px",
+    fontWeight: "600",
+  }}
+>
+  📍 Consultas presenciales en Girona · 📱 Online y llamadas para toda España
+</div>
+
+{/* CÓMO FUNCIONA */}
+<section
+  style={{
+    marginTop: "100px",
+    textAlign: "center",
+    color: "white",
+    maxWidth: "900px",
+    marginLeft: "auto",
+    marginRight: "auto",
+    padding: "0 20px",
+    fontFamily: "'Cinzel', serif",
+  }}
+>
+  <h2
+    style={{
+      fontSize: "42px",
+      fontWeight: "900",
+      color: "#FFD700",
+      marginBottom: "30px",
+      textShadow: "0 0 15px rgba(255,215,0,0.8)",
+    }}
+  >
+    ¿Cómo funciona una consulta?
+  </h2>
+
+  <p
+    style={{
+      fontSize: "22px",
+      lineHeight: "1.8",
+      opacity: 0.95,
+    }}
+  >
+    Cada consulta comienza escuchando tu situación y las preguntas que deseas
+    resolver. A través de una tirada de cartas, analizamos juntos los aspectos
+    más importantes para ofrecerte una interpretación clara y personalizada.
+  </p>
+
+  <p
+    style={{
+      fontSize: "22px",
+      lineHeight: "1.8",
+      marginTop: "25px",
+      opacity: 0.95,
+    }}
+  >
+    Las consultas pueden realizarse de forma presencial en Girona, online o por
+    llamada, siempre con total privacidad, sinceridad y respeto.
+  </p>
+</section>
+{/* ¿EN QUÉ PUEDO AYUDARTE? */}
+<section
+  style={{
+    marginTop: "90px",
+    maxWidth: "1000px",
+    marginLeft: "auto",
+    marginRight: "auto",
+    padding: "0 20px",
+    color: "white",
+    fontFamily: "'Cinzel', serif",
+  }}
+>
+  <h2
+    style={{
+      textAlign: "center",
+      fontSize: "42px",
+      fontWeight: "900",
+      color: "#FFD700",
+      marginBottom: "50px",
+      textShadow: "0 0 15px rgba(255,215,0,0.8)",
+    }}
+  >
+    ¿En qué puedo ayudarte?
+  </h2>
+
+  <div
+    style={{
+      display: "grid",
+      gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+      gap: "25px",
+    }}
+  >
+    <div>
+      <h3 style={{ color: "#FFD700", fontSize: "28px" }}>
+        ❤️ Amor y relaciones
+      </h3>
+      <p>
+        Orientación para comprender mejor tus relaciones, sentimientos y decisiones importantes.
+      </p>
+    </div>
+
+    <div>
+      <h3 style={{ color: "#FFD700", fontSize: "28px" }}>
+        💼 Trabajo
+      </h3>
+      <p>
+        Aclara dudas sobre empleo, cambios profesionales y nuevas oportunidades.
+      </p>
+    </div>
+
+    <div>
+      <h3 style={{ color: "#FFD700", fontSize: "28px" }}>
+        💰 Economía
+      </h3>
+      <p>
+        Una nueva perspectiva para afrontar decisiones económicas con mayor tranquilidad.
+      </p>
+    </div>
+
+    <div>
+      <h3 style={{ color: "#FFD700", fontSize: "28px" }}>
+        🌟 Crecimiento personal
+      </h3>
+      <p>
+        Encuentra claridad para afrontar cambios y avanzar con mayor seguridad.
+      </p>
+    </div>
+  </div>
+</section>
+
 
       {/* SERVICIOS */}
       <section
@@ -297,7 +442,9 @@ export default function Page() {
         </a>
       </div>
 
-      {/* TESTIMONIOS */}
+      
+        
+          {/* TESTIMONIOS */}
       <section
         style={{
           marginTop: "80px",
@@ -379,26 +526,78 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* PREGUNTAS FRECUENTES */}
 
-      {/* BIZUM + GIRONA */}
-      <div
+<section
+  style={{
+    marginTop: "90px",
+    maxWidth: "900px",
+    marginLeft: "auto",
+    marginRight: "auto",
+    padding: "0 20px",
+    color: "white",
+    fontFamily: "'Cinzel', serif",
+  }}
+>
+  <h2
+    style={{
+      textAlign: "center",
+      fontSize: "42px",
+      fontWeight: "900",
+      color: "#FFD700",
+      marginBottom: "40px",
+      textShadow: "0 0 15px rgba(255,215,0,0.8)",
+    }}
+  >
+    Preguntas Frecuentes
+  </h2>
+
+  <div style={{ marginBottom: "25px" }}>
+    <h3 style={{ color: "#FFD700", fontSize: "26px" }}>
+      ¿Las consultas son privadas?
+    </h3>
+    <p>
+      Sí. Todas las consultas son completamente confidenciales y se realizan con respeto y discreción.
+    </p>
+  </div>
+
+  <div style={{ marginBottom: "25px" }}>
+    <h3 style={{ color: "#FFD700", fontSize: "26px" }}>
+      ¿Puedo hacer la consulta desde cualquier lugar?
+    </h3>
+    <p>
+      Sí. Atiendo consultas por WhatsApp y por llamada para toda España.
+    </p>
+  </div>
+
+  <div style={{ marginBottom: "25px" }}>
+    <h3 style={{ color: "#FFD700", fontSize: "26px" }}>
+      ¿También realizas consultas presenciales?
+    </h3>
+    <p>
+      Sí. Atiendo con cita previa en Girona.
+    </p>
+  </div>
+
+  <div>
+    <h3 style={{ color: "#FFD700", fontSize: "26px" }}>
+      ¿Cómo puedo realizar el pago?
+    </h3>
+    <p>
+      Actualmente acepto pagos mediante <strong>Bizum</strong>. No acepto pagos con tarjeta de crédito.
+    </p>
+  </div>
+</section>
+
+      {/* BIZUM + PRESENCIAL */}
+      <section
         style={{
-          marginTop: "80px",
           textAlign: "center",
-          fontFamily: "'Cinzel', serif",
           color: "white",
+          fontFamily: "'Cinzel', serif",
+          marginTop: "60px",
         }}
       >
-        <div
-          style={{
-            width: "80%",
-            height: "2px",
-            background:
-              "linear-gradient(to right, transparent, #FFD700, transparent)",
-            margin: "0 auto 40px auto",
-          }}
-        ></div>
-
         <h3
           style={{
             fontSize: "36px",
@@ -409,6 +608,7 @@ export default function Page() {
         >
           Pago por Bizum Disponible
         </h3>
+
         <p style={{ fontSize: "22px", marginTop: "10px", opacity: 0.9 }}>
           Número: <strong style={{ color: "#FFD700" }}>622 091 189</strong>
         </p>
@@ -424,6 +624,7 @@ export default function Page() {
         >
           Consultas Presenciales en Girona
         </h3>
+
         <p style={{ fontSize: "22px", marginTop: "10px", opacity: 0.9 }}>
           Reserva tu cita por WhatsApp o llamada
         </p>
@@ -437,9 +638,9 @@ export default function Page() {
             margin: "40px auto 0 auto",
           }}
         ></div>
-      </div>
+      </section>
 
-      {/* FOOTER FINAL */}
+          {/* FOOTER FINAL */}
       <div
         style={{
           marginTop: "100px",
@@ -471,7 +672,7 @@ export default function Page() {
         </p>
       </div>
 
-      {/* BOTÓN WHATSAPP STICKY (SOLO MÓVIL) */}
+      {/* BOTÓN WHATSAPP STICKY */}
       <a
         href="https://wa.me/34622091189"
         target="_blank"
