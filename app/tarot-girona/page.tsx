@@ -108,6 +108,18 @@ export default function Page() {
     <li>🌙 Momentos de cambio e incertidumbre.</li>
     <li>🔮 Consultas generales de orientación.</li>
   </ul>
+  <img
+  src="/IMG/img1.jpeg"
+  alt="Tirada de cartas del tarot"
+  style={{
+    width: "100%",
+    maxWidth: "800px",
+    display: "block",
+    margin: "60px auto",
+    borderRadius: "16px",
+    boxShadow: "0 0 25px rgba(255,215,0,0.30)",
+  }}
+/>
 
   <p
     style={{
