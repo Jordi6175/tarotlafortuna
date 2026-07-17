@@ -678,6 +678,111 @@ export default function Page() {
       >
         <span>✆</span>
       </a>
+      <section
+  style={{
+    marginTop: "80px",
+    maxWidth: "900px",
+    marginInline: "auto",
+  }}
+>
+  <h2
+    style={{
+      color: "#FFD700",
+      textAlign: "center",
+      fontSize: "36px",
+      marginBottom: "40px",
+    }}
+  >
+    Descubre nuestras consultas
+  </h2>
+
+  <div
+    style={{
+      display: "grid",
+      gap: "25px",
+    }}
+  >
+    {/* TAROT AMOR */}
+    <div
+      style={{
+        background: "rgba(0,0,0,0.65)",
+        border: "1px solid #FFD700",
+        borderRadius: "18px",
+        padding: "30px",
+      }}
+    >
+      <h3 style={{ color: "#FFD700", fontSize: "28px" }}>
+        ❤️ Tarot del Amor
+      </h3>
+
+      <p
+        style={{
+          fontSize: "20px",
+          lineHeight: "1.8",
+        }}
+      >
+        Resuelve tus dudas sentimentales, descubre qué siente esa persona y
+        obtén orientación sobre tu futuro amoroso.
+      </p>
+
+      <a
+        href="/tarot-amor"
+        style={{
+          display: "inline-block",
+          marginTop: "20px",
+          background: "#FFD700",
+          color: "#000",
+          padding: "12px 28px",
+          borderRadius: "30px",
+          textDecoration: "none",
+          fontWeight: "bold",
+        }}
+      >
+        Ver Tarot del Amor
+      </a>
+    </div>
+
+    {/* TAROT GIRONA */}
+    <div
+      style={{
+        background: "rgba(0,0,0,0.65)",
+        border: "1px solid #FFD700",
+        borderRadius: "18px",
+        padding: "30px",
+      }}
+    >
+      <h3 style={{ color: "#FFD700", fontSize: "28px" }}>
+        📍 Tarot en Girona
+      </h3>
+
+      <p
+        style={{
+          fontSize: "20px",
+          lineHeight: "1.8",
+        }}
+      >
+        Consultas presenciales con cita previa en Girona o por WhatsApp y
+        llamada desde cualquier punto de España.
+      </p>
+
+      <a
+        href="/tarot-girona"
+        style={{
+          display: "inline-block",
+          marginTop: "20px",
+          background: "#FFD700",
+          color: "#000",
+          padding: "12px 28px",
+          borderRadius: "30px",
+          textDecoration: "none",
+          fontWeight: "bold",
+        }}
+      >
+        Ver Tarot Girona
+      </a>
+    </div>
+  </div>
+</section>
 
     </main>
   );
