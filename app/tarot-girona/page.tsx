@@ -10,7 +10,7 @@ const styles = {
   page: {
     minHeight: "100vh",
     backgroundImage:
-      "linear-gradient(rgba(0,0,0,0.72), rgba(0,0,0,0.72)), url('/img/fondoweb.jpg')",
+      "linear-gradient(rgba(0,0,0,0.72), rgba(0,0,0,0.72)), url('/IMG/fondoweb.jpg')",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
