@@ -348,7 +348,7 @@ export default function Page() {
                 textShadow: "0 0 15px rgba(255,215,0,0.8)",
               }}
             >
-              20€
+              15€
             </p>
           </div>
 
