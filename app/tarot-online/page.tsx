@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Header from "@/components/Header";
 export const metadata = {
   title: "Tarot Online | Consulta por WhatsApp o Llamada",
   description:
@@ -56,7 +57,10 @@ const styles = {
 };
 
 export default function Page() {
-  return (
+ return (
+  <>
+    <Header />
+    
     <main style={styles.page}>
       <div style={styles.container}>
         <h1 style={styles.h1}>Tarot online
@@ -264,5 +268,6 @@ Si prefieres realizar tu consulta desde casa, puedes acceder a una consulta de t
 </section>
       </div>
     </main>
+  </>
   );
 }

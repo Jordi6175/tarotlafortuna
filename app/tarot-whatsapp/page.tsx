@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Header from "@/components/Header";
 export const metadata = {
   title: "Tarot por WhatsApp | Consulta Privada y Personalizada",
   description:
@@ -57,6 +58,9 @@ const styles = {
 
 export default function Page() {
   return (
+  <>
+    <Header />
+    
     <main style={styles.page}>
       <div style={styles.container}>
         <h1 style={styles.h1}>Tarot por WhatsApp
@@ -263,5 +267,6 @@ Podrás plantear tus dudas y recibir una lectura realizada con calma y total con
 </section>
       </div>
     </main>
+  </>
   );
 }

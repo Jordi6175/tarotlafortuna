@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Header from "@/components/Header";
 
 export const metadata: Metadata = {
   title: "Tarot en Girona | Consultas Presenciales y Online",
@@ -57,7 +58,10 @@ const styles = {
 };
 
 export default function Page() {
-  return (
+ return (
+  <>
+    <Header />
+    
     <main style={styles.page}>
       <div style={styles.container}>
         <h1 style={styles.h1}>Tarot en Girona</h1>
@@ -252,5 +256,6 @@ export default function Page() {
 </section>
       </div>
     </main>
+  </>
   );
 }

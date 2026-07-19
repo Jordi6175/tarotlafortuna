@@ -1,5 +1,11 @@
+
+
+import Header from "@/components/Header";
 export default function Page() {
+
   return (
+  <>
+    <Header />
     <main
       style={{
         minHeight: "100dvh",
@@ -783,7 +789,7 @@ export default function Page() {
     </div>
   </div>
 </section>
-
     </main>
+  </>
   );
 }

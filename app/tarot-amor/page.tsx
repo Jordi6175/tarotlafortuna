@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Header from "@/components/Header";
 export const metadata = {
   title: "Tarot del Amor | Consultas Sentimentales y de Pareja",
   description:
@@ -57,7 +58,9 @@ const styles = {
 
 export default function Page() {
   return (
-    <main style={styles.page}>
+    <>
+      <Header />
+      <main style={styles.page}>
       <div style={styles.container}>
         <h1 style={styles.h1}>Tarot del amor
 
@@ -253,5 +256,6 @@ export default function Page() {
 </section>
       </div>
     </main>
+    </>
   );
 }
