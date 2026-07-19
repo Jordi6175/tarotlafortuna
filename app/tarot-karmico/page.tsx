@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
-export const metadata = {
-  title: "Tarot por WhatsApp | Consulta Privada y Personalizada",
-  description:
-    "Consulta de tarot por WhatsApp desde cualquier lugar de España. Atención personalizada, confidencial y con cita previa.",
-};
 
+export const metadata: Metadata = {
+  title: "Tarot Kármico y Vidas Pasadas",
+  description:
+    "Consulta el tarot kármico para entender tus vidas pasadas y el camino kármico que sigues. Atención presencial y online.",
+};
 const styles = {
   page: {
     minHeight: "100vh",
@@ -58,40 +58,39 @@ const styles = {
 
 export default function Page() {
   return (
-  <>
-    <Header />
-    
-    <main style={styles.page}>
+    <>
+      <Header />
+      <main style={styles.page}>
       <div style={styles.container}>
-        <h1 style={styles.h1}>Tarot por WhatsApp
+        <h1 style={styles.h1}>Tarot Kármico y Vidas Pasadas
 
         </h1>
 
         <p style={styles.p}>
-Si buscas una forma cómoda y discreta de realizar tu consulta, el tarot por WhatsApp
-te permite recibir una atención personalizada sin desplazarte.
-Podrás plantear tus dudas y recibir una lectura realizada con calma y total confidencialidad.
+        Descubre qué lecciones trae tu alma, qué vínculos proceden de otras vidas
+         y cómo comprender los bloqueos que se repiten en tu camino.
         </p>
 
         <div style={styles.divider}></div>
 
         <section style={styles.section}>
-          <h2 style={styles.h2}>Consultas de tarot por whatsapp</h2>
+          <h2 style={styles.h2}>Consultas de tarot kármico</h2>
 
           <p style={styles.p}>
-            Cada situación personal es diferente. Las cartas del tarot,
-             pueden ayudarte a comprender mejor tus problemas, aclarar dudas
-             y afrontar con mayor seguridad las decisiones de tu vida.
+            Cada lectura de tarot kármico es única y personalizada.
+             A través de la interpretación de las cartas, podemos explorar 
+             los patrones que se repiten en tu vida, los vínculos que has formado a lo largo de tus vidas
+              pasadas y cómo estos influyen en tu presente.
           </p>
           <div style={styles.divider}></div>
 
 <section style={styles.section}>
-  <h2 style={styles.h2}>Consultas por whatsapp para toda España</h2>
+  <h2 style={styles.h2}>Consultas online para toda España</h2>
 
   <p style={styles.p}>
-  Las consultas por WhatsApp son ideales para quienes prefieren comunicarse por escrito,
-   o desean realizar su consulta desde cualquier lugar. 
-   Solo necesitas solicitar cita y acordaremos el momento de la lectura.
+    Si no puedes desplazarte a Girona, también puedes realizar tu consulta por
+    WhatsApp o mediante llamada telefónica. Es una forma cómoda, privada y
+    sencilla de recibir tu lectura estés donde estés.
   </p>
 </section>
 
@@ -100,28 +99,23 @@ Podrás plantear tus dudas y recibir una lectura realizada con calma y total con
 <section style={styles.section}>
   <h2 style={styles.h2}>¿En qué puedo ayudarte?</h2>
 
-  
-  
-    
-  
-<ul
-  style={{
-    fontSize: "20px",
-    lineHeight: "2",
-    paddingLeft: "30px",
-  }}
->
-  <li>📱 Consultas completamente por WhatsApp.</li>
-  <li>❤️ Amor, pareja y relaciones.</li>
-  <li>💼 Trabajo, proyectos y decisiones.</li>
-  <li>💰 Economía y nuevos caminos.</li>
-  <li>🔮 Lecturas personalizadas y privadas.</li>
-</ul>
-
-<img
-  
-  src="/IMG/img5.jpeg"
-  alt="Tirada del tarot online"
+  <ul
+    style={{
+      fontSize: "20px",
+      lineHeight: "2",
+      paddingLeft: "30px",
+    }}
+  >
+    <li>🌙 Relaciones kármicas y almas gemelas.</li>
+    <li>🔮 Influencias de vidas pasadas.</li>
+    <li>✨ Bloqueos que se repiten en tu vida.</li>
+    <li>🕊️ Aprendizajes espirituales.</li>
+    <li>⭐ Descubre el propósito de tu camino.</li>
+  </ul>
+</section>
+  <img
+  src="/IMG/img4.jpeg"
+  alt="Tirada del tarot del amor"
   style={{
     width: "100%",
     maxWidth: "800px",
@@ -131,18 +125,21 @@ Podrás plantear tus dudas y recibir una lectura realizada con calma y total con
     boxShadow: "0 0 25px rgba(255,215,0,0.30)",
   }}
 />
+<p
+  style={{
+    ...styles.p,
+    marginTop: "25px",
+  }}
+>
+  El tarot kármico es una herramienta de reflexión que ayuda a comprender
+  patrones que se repiten en la vida, relaciones importantes y aprendizajes
+  personales. Cada consulta es única y está orientada a ofrecer claridad,
+  serenidad y una nueva perspectiva para ayudarte a tomar tus propias
+  decisiones.
+</p>
 
-  <p
-    style={{
-      ...styles.p,
-      marginTop: "25px",
-    }}
-  >
-    Cada consulta es única. Mi intención es ayudarte a comprender mejor tu
-    situación para que puedas tomar tus decisiones con mayor claridad.
-  </p>
 </section>
-    </section>
+    
     <div style={styles.divider}></div>
 
 <section style={styles.section}>
@@ -150,35 +147,38 @@ Podrás plantear tus dudas y recibir una lectura realizada con calma y total con
 
   <div style={{ marginBottom: "30px" }}>
     <h3 style={{ color: "#FFD700", fontSize: "24px" }}>
-        ¿Cómo funciona la consulta por WhatsApp?
+      ¿Qué es el tarot kármico?
     </h3>
 
     <p style={styles.p}>
-      La consulta por WhatsApp es muy sencilla,
-    tu preguntas,yo hago la tirada y respondo por escrito,
-      incluyo foto de la tirada.
+      El tarot kármico es una herramienta de reflexión que ayuda a comprender
+      patrones que se repiten en la vida, relaciones importantes y aprendizajes
+      personales.
     </p>
   </div>
 
   <div style={{ marginBottom: "30px" }}>
     <h3 style={{ color: "#FFD700", fontSize: "24px" }}>
-      Es igual de efectiva que una consulta presencial?
+      ¿Es útil para resolver problemas personales?
     </h3>
 
     <p style={styles.p}>
-      si porque doy la misma atención y dedicación que en una consulta presencial,
-      y ademas puedes pedir aclaraciones y detalles de la tirada.
+      Es una lectura orientada a comprender patrones, relaciones y experiencias
+    que muchas personas interpretan como parte de su camino espiritual o
+    aprendizaje personal.
+
     </p>
   </div>
 
   <div>
     <h3 style={{ color: "#FFD700", fontSize: "24px" }}>
-     ¿Cuánto dura una consulta?
+     ¿Puede ayudarme a entender una relación kármica?
     </h3>
 
     <p style={styles.p}>
-      Depende de la opción que elijas,puedes elgeir pregunta única,
-      tirada del amor, pero normalmente entre 15 y 30 minutos.
+       Sí. Muchas personas consultan para comprender vínculos intensos, relaciones
+    que se repiten o situaciones difíciles de explicar, buscando una visión más
+    amplia de su experiencia.
     </p>
   </div>
 </section>
@@ -242,11 +242,9 @@ Podrás plantear tus dudas y recibir una lectura realizada con calma y total con
       boxShadow: "0 0 25px rgba(22,163,74,.5)",
       transition: "0.3s",
     }}
-   
   >
     ✆ WhatsApp
   </a>
- 
 
   <p
     style={{
@@ -267,6 +265,6 @@ Podrás plantear tus dudas y recibir una lectura realizada con calma y total con
 </section>
       </div>
     </main>
-  </>
+    </>
   );
 }
