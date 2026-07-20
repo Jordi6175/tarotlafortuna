@@ -306,22 +306,26 @@ export default function Page() {
 
           {/* CAJA 1 */}
           <div
-            className="w-[260px] h-[300px] flex flex-col items-center rounded-3xl"
+          className="w-[290px] h-[330px] flex flex-col items-center rounded-[34px] transition-all duration-300 hover:-translate-y-2 hover:scale-105" 
             style={{
-              backgroundColor: "#7A001F",
-              padding: "20px",
-              border: "3px solid #FFD700",
-              boxShadow: "0 0 20px rgba(255,215,0,0.8)",
-            }}
+  background:
+    "linear-gradient(180deg, #7A001F 0%, #4A0013 55%, #240008 100%)",
+  padding: "28px",
+  border: "1.5px solid rgba(255,215,0,0.65)",
+  boxShadow:
+    "0 12px 35px rgba(0,0,0,0.55), 0 0 18px rgba(255,215,0,0.25)",
+  backdropFilter: "blur(6px)",
+}}
+            
           >
-            <div className="text-6xl simbol-mistic" style={{ color: "#FFD700" }}>✦</div>
+            <div className="text-7xl simbol-mistic" style={{ color: "#FFD700" }}>✦</div>
             <h3 className="text-2xl font-bold mt-3" style={{ color: "#FFD700" }}>1 Pregunta</h3>
-            <p className="mt-1" style={{ color: "#FFD700" }}>Respuesta directa y clara</p>
+            <p className="mt-1" style={{ color: "#FFD700" }}>Resuelve una duda concreta</p>
             <div style={{ flexGrow: 1 }}></div>
             <p
               style={{
                 color: "#FFD700",
-                fontSize: "90px",
+                fontSize: "72px",
                 fontWeight: "900",
                 lineHeight: "1",
                 textShadow: "0 0 15px rgba(255,215,0,0.8)",
@@ -330,90 +334,165 @@ export default function Page() {
               5€
             </p>
           </div>
+{/* CAJA 2 */}
+<div
+  className="w-[290px] h-[330px] flex flex-col items-center rounded-[34px] transition-all duration-300 hover:-translate-y-2 hover:scale-105"
+  style={{
+    background:
+      "linear-gradient(180deg, #7A001F 0%, #4A0013 55%, #240008 100%)",
+    padding: "28px",
+    border: "1.5px solid rgba(255,215,0,0.65)",
+    boxShadow:
+      "0 12px 35px rgba(0,0,0,0.55), 0 0 18px rgba(255,215,0,0.25)",
+    backdropFilter: "blur(6px)",
+  }}
+>
+  <div
+    className="text-7xl mb-2"
+    style={{
+      color: "#FFD700",
+      textShadow: "0 0 20px rgba(255,215,0,0.7)",
+    }}
+  >
+    ❤️
+  </div>
 
-          {/* CAJA 2 */}
-          <div
-            className="w-[260px] h-[300px] flex flex-col items-center rounded-3xl"
-            style={{
-              backgroundColor: "#7A001F",
-              padding: "20px",
-              border: "3px solid #FFD700",
-              boxShadow: "0 0 20px rgba(255,215,0,0.8)",
-            }}
-          >
-            <div className="text-6xl simbol-mistic" style={{ color: "#FFD700" }}>♡</div>
-            <h3 className="text-2xl font-bold mt-3" style={{ color: "#FFD700" }}>Tirada del Amor</h3>
-            <p className="mt-1" style={{ color: "#FFD700" }}>Relaciones y sentimientos</p>
-            <div style={{ flexGrow: 1 }}></div>
-            <p
-              style={{
-                color: "#FFD700",
-                fontSize: "90px",
-                fontWeight: "900",
-                lineHeight: "1",
-                textShadow: "0 0 15px rgba(255,215,0,0.8)",
-              }}
-            >
-              15€
-            </p>
-          </div>
+  <h3
+    className="text-2xl font-bold mt-3"
+    style={{ color: "#FFD700" }}
+  >
+    Tarot del Amor
+  </h3>
 
-          {/* CAJA 3 */}
-          <div
-            className="w-[260px] h-[300px] flex flex-col items-center rounded-3xl"
-            style={{
-              backgroundColor: "#7A001F",
-              padding: "20px",
-              border: "3px solid #FFD700",
-              boxShadow: "0 0 20px rgba(255,215,0,0.8)",
-            }}
-          >
-            <div className="text-6xl simbol-mistic" style={{ color: "#FFD700" }}>♱</div>
-            <h3 className="text-2xl font-bold mt-3" style={{ color: "#FFD700" }}>Consulta 30 min</h3>
-            <p className="mt-1" style={{ color: "#FFD700" }}>Lectura completa</p>
-            <div style={{ flexGrow: 1 }}></div>
-            <p
-              style={{
-                color: "#FFD700",
-                fontSize: "90px",
-                fontWeight: "900",
-                lineHeight: "1",
-                textShadow: "0 0 15px rgba(255,215,0,0.8)",
-              }}
-            >
-              30€
-            </p>
-          </div>
+  <p className="mt-1" style={{ color: "#FFD700" }}>
+    Relaciones y sentimientos
+  </p>
 
-          {/* CAJA 4 */}
-          <div
-            className="w-[260px] h-[300px] flex flex-col items-center rounded-3xl"
-            style={{
-              backgroundColor: "#7A001F",
-              padding: "20px",
-              border: "3px solid #FFD700",
-              boxShadow: "0 0 20px rgba(255,215,0,0.8)",
-            }}
-          >
-            <div className="text-6xl simbol-mistic" style={{ color: "#FFD700" }}>✧</div>
-            <h3 className="text-2xl font-bold mt-3" style={{ color: "#FFD700" }}>Consulta 1 Hora</h3>
-            <p className="mt-1" style={{ color: "#FFD700" }}>Guía profunda</p>
-            <div style={{ flexGrow: 1 }}></div>
-            <p
-              style={{
-                color: "#FFD700",
-                fontSize: "90px",
-                fontWeight: "900",
-                lineHeight: "1",
-                textShadow: "0 0 15px rgba(255,215,0,0.8)",
-              }}
-            >
-              50€
-            </p>
-          </div>
+  <div style={{ flexGrow: 1 }}></div>
 
+  <p
+    style={{
+      color: "#FFD700",
+      fontSize: "72px",
+      fontWeight: "900",
+      lineHeight: "1",
+      textShadow: "0 0 15px rgba(255,215,0,0.8)",
+    }}
+  >
+    15€
+  </p>
+</div>
+{/* CAJA 3 */}
+<div
+  className="w-[290px] h-[330px] flex flex-col items-center rounded-[34px] transition-all duration-300 hover:-translate-y-2 hover:scale-105"
+  style={{
+    background:
+      "linear-gradient(180deg, #7A001F 0%, #4A0013 55%, #240008 100%)",
+    padding: "28px",
+    border: "1.5px solid rgba(255,215,0,0.65)",
+    boxShadow:
+      "0 12px 35px rgba(0,0,0,0.55), 0 0 18px rgba(255,215,0,0.25)",
+    backdropFilter: "blur(6px)",
+  }}
+>
+  <div
+    className="text-7xl mb-2"
+    style={{
+      color: "#FFD700",
+      textShadow: "0 0 20px rgba(255,215,0,0.7)",
+    }}
+  >
+    🌙
+  </div>
+
+  <h3
+    className="text-2xl font-bold mt-3"
+    style={{ color: "#FFD700" }}
+  >
+    Tarot Kármico
+  </h3>
+
+  <p className="mt-1" style={{ color: "#FFD700" }}>
+    Vidas pasadas y aprendizaje
+  </p>
+
+  <div style={{ flexGrow: 1 }}></div>
+
+  <p
+    style={{
+      color: "#FFD700",
+      fontSize: "72px",
+      fontWeight: "900",
+      lineHeight: "1",
+      textShadow: "0 0 15px rgba(255,215,0,0.8)",
+    }}
+  >
+    20€
+  </p>
+</div>
+         {/* CAJA 4 */}
+<div
+  className="w-[290px] h-[330px] flex flex-col items-center rounded-[34px] transition-all duration-300 hover:-translate-y-2 hover:scale-105"
+  style={{
+    background:
+      "linear-gradient(180deg, #7A001F 0%, #4A0013 55%, #240008 100%)",
+    padding: "28px",
+    border: "1.5px solid rgba(255,215,0,0.65)",
+    boxShadow:
+      "0 12px 35px rgba(0,0,0,0.55), 0 0 18px rgba(255,215,0,0.25)",
+    backdropFilter: "blur(6px)",
+  }}
+>
+  <div
+    className="text-7xl mb-2"
+    style={{
+      color: "#FFD700",
+      textShadow: "0 0 20px rgba(255,215,0,0.7)",
+    }}
+  >
+    🔮
+  </div>
+
+  <h3
+    className="text-2xl font-bold mt-3"
+    style={{ color: "#FFD700" }}
+  >
+    Consulta Completa
+  </h3>
+
+  <p className="mt-1" style={{ color: "#FFD700" }}>
+    Lectura personalizada
+  </p>
+
+  <div style={{ flexGrow: 1 }}></div>
+
+  <p
+    style={{
+      color: "#FFD700",
+      fontSize: "72px",
+      fontWeight: "900",
+      lineHeight: "1",
+      textShadow: "0 0 15px rgba(255,215,0,0.8)",
+    }}
+  >
+    30€
+  </p>
+</div>
+
+          <p
+  style={{
+    textAlign: "center",
+    color: "#FFD700",
+    fontSize: "20px",
+    marginTop: "45px",
+    fontStyle: "italic",
+  }}
+>
+  También realizo consultas presenciales o llamadas de una hora para quienes buscan una orientación más profunda.
+</p>
         </div>
       </section>
+   
 
       {/* BOTÓN RESERVAR */}
       <div
@@ -448,87 +527,359 @@ export default function Page() {
 
       
         
-          {/* TESTIMONIOS */}
-      <section
-        style={{
-          marginTop: "80px",
-          textAlign: "center",
-          color: "white",
-          fontFamily: "'Cinzel', serif",
-        }}
-      >
-        <h2
-          style={{
-            fontSize: "48px",
-            fontWeight: "900",
-            marginBottom: "40px",
-            color: "#FFD700",
-            textShadow: "0 0 15px rgba(255,215,0,0.8)",
-          }}
-        >
-          Testimonios
-        </h2>
+         
+       {/* TESTIMONIOS */}
+<section
+  className="text-white"
+  style={{ marginTop: "170px" }}
+>
+  <h2
+    className="text-center text-4xl font-bold"
+    style={{
+      color: "#FFD700",
+      fontFamily: "'Cinzel', serif",
+      textShadow: "0 0 15px rgba(255,215,0,.8)",
+      marginBottom: "60px",
+    }}
+  >
+    Opiniones de nuestros clientes
+  </h2>
 
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            gap: "40px",
-            maxWidth: "900px",
-            margin: "0 auto",
-          }}
-        >
-          <div
-            style={{
-              backgroundColor: "rgba(255,255,255,0.08)",
-              border: "2px solid #FFD700",
-              borderRadius: "20px",
-              padding: "25px",
-              boxShadow: "0 0 15px rgba(255,215,0,0.4)",
-            }}
-          >
-            <p style={{ fontSize: "22px", opacity: 0.9 }}>
-              “Muy acertado, directo y amable. Me ayudó a ver mi situación con claridad.”
-            </p>
-            <p style={{ marginTop: "10px", fontWeight: "bold", color: "#FFD700" }}>
-              — Laura, Girona
-            </p>
-          </div>
+  <div
+    style={{
+      display: "grid",
+      gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+      gap: "30px",
+      maxWidth: "1200px",
+      margin: "0 auto",
+    }}
+  >
+   <div
+  style={{
+    background:
+      "linear-gradient(180deg,#7A001F 0%,#4A0013 60%,#240008 100%)",
+    border: "1.5px solid rgba(255,215,0,.6)",
+    borderRadius: "28px",
+    padding: "28px",
+    boxShadow:
+      "0 10px 30px rgba(0,0,0,.45), 0 0 15px rgba(255,215,0,.18)",
+    transition: ".3s",
+  }}
+>
+  <div
+    style={{
+      color: "#FFD700",
+      fontSize: "24px",
+      marginBottom: "18px",
+      letterSpacing: "3px",
+    }}
+  >
+    ★★★★★
+  </div>
 
-          <div
-            style={{
-              backgroundColor: "rgba(255,255,255,0.08)",
-              border: "2px solid #FFD700",
-              borderRadius: "20px",
-              padding: "25px",
-              boxShadow: "0 0 15px rgba(255,215,0,0.4)",
-            }}
-          >
-            <p style={{ fontSize: "22px", opacity: 0.9 }}>
-              “La lectura fue muy clara y precisa. Volveré sin duda.”
-            </p>
-            <p style={{ marginTop: "10px", fontWeight: "bold", color: "#FFD700" }}>
-              — Marta, Barcelona
-            </p>
-          </div>
+  <p
+    style={{
+      fontSize: "18px",
+      lineHeight: "1.8",
+      color: "#F5F5F5",
+      fontStyle: "italic",
+    }}
+  >
+    Tenía muchas dudas sobre una decisión importante y la consulta me ayudó a verlo todo con mucha más claridad. Me sentí muy cómoda durante toda la lectura.
+  </p>
 
-          <div
-            style={{
-              backgroundColor: "rgba(255,255,255,0.08)",
-              border: "2px solid #FFD700",
-              borderRadius: "20px",
-              padding: "25px",
-              boxShadow: "0 0 15px rgba(255,215,0,0.4)",
-            }}
-          >
-            <p style={{ fontSize: "22px", opacity: 0.9 }}>
-              “Me sorprendió lo exacto que fue. Muy recomendable.”
-            </p>
-            <p style={{ marginTop: "10px", fontWeight: "bold", color: "#FFD700" }}>
-              — Ana, España
-            </p>
-          </div>
-        </div>
+  <div
+    style={{
+      marginTop: "22px",
+      color: "#FFD700",
+      fontWeight: "bold",
+      fontSize: "18px",
+    }}
+  >
+    Laura C.
+  </div>
+
+  <div
+    style={{
+      color: "#C9C9C9",
+      fontSize: "15px",
+    }}
+  >
+    Madrid
+  </div>
+</div> 
+<div
+  style={{
+    background:
+      "linear-gradient(180deg,#7A001F 0%,#4A0013 60%,#240008 100%)",
+    border: "1.5px solid rgba(255,215,0,.6)",
+    borderRadius: "28px",
+    padding: "28px",
+    boxShadow:
+      "0 10px 30px rgba(0,0,0,.45), 0 0 15px rgba(255,215,0,.18)",
+    transition: ".3s",
+  }}
+>
+  <div
+    style={{
+      color: "#FFD700",
+      fontSize: "24px",
+      marginBottom: "18px",
+      letterSpacing: "3px",
+    }}
+  >
+    ★★★★★
+  </div>
+
+  <p
+    style={{
+      fontSize: "18px",
+      lineHeight: "1.8",
+      color: "#F5F5F5",
+      fontStyle: "italic",
+    }}
+  >
+   Muy profesional y cercano... 
+  </p>
+
+  <div
+    style={{
+      marginTop: "22px",
+      color: "#FFD700",
+      fontWeight: "bold",
+      fontSize: "18px",
+    }}
+  >
+    Maria G.
+  </div>
+
+  <div
+    style={{
+      color: "#C9C9C9",
+      fontSize: "15px",
+    }}
+  >
+    Barcelona
+  </div>
+</div>
+<div
+  style={{
+    background:
+      "linear-gradient(180deg,#7A001F 0%,#4A0013 60%,#240008 100%)",
+    border: "1.5px solid rgba(255,215,0,.6)",
+    borderRadius: "28px",
+    padding: "28px",
+    boxShadow:
+      "0 10px 30px rgba(0,0,0,.45), 0 0 15px rgba(255,215,0,.18)",
+    transition: ".3s",
+  }}
+>
+  <div
+    style={{
+      color: "#FFD700",
+      fontSize: "24px",
+      marginBottom: "18px",
+      letterSpacing: "3px",
+    }}
+  >
+    ★★★★★
+  </div>
+
+  <p
+    style={{
+      fontSize: "18px",
+      lineHeight: "1.8",
+      color: "#F5F5F5",
+      fontStyle: "italic",
+    }}
+  >
+Era la primera vegada que consultava un tarot i em va sorprendre la naturalitat amb què es desenvolupa tota la consulta. Una experiència molt positiva.
+  </p>
+
+  <div
+    style={{
+      marginTop: "22px",
+      color: "#FFD700",
+      fontWeight: "bold",
+      fontSize: "18px",
+    }}
+  >
+    Jordi P.
+  </div>
+
+  <div
+    style={{
+      color: "#C9C9C9",
+      fontSize: "15px",
+    }}
+  >
+    Tarragona
+  </div>
+</div>
+<div
+  style={{
+    background:
+      "linear-gradient(180deg,#7A001F 0%,#4A0013 60%,#240008 100%)",
+    border: "1.5px solid rgba(255,215,0,.6)",
+    borderRadius: "28px",
+    padding: "28px",
+    boxShadow:
+      "0 10px 30px rgba(0,0,0,.45), 0 0 15px rgba(255,215,0,.18)",
+    transition: ".3s",
+  }}
+>
+  <div
+    style={{
+      color: "#FFD700",
+      fontSize: "24px",
+      marginBottom: "18px",
+      letterSpacing: "3px",
+    }}
+  >
+    ★★★★★
+  </div>
+
+  <p
+    style={{
+      fontSize: "18px",
+      lineHeight: "1.8",
+      color: "#F5F5F5",
+      fontStyle: "italic",
+    }}
+  >
+   La lectura fue muy clara...
+  </p>
+
+  <div
+    style={{
+      marginTop: "22px",
+      color: "#FFD700",
+      fontWeight: "bold",
+      fontSize: "18px",
+    }}
+  >
+    David M.
+  </div>
+
+  <div
+    style={{
+      color: "#C9C9C9",
+      fontSize: "15px",
+    }}
+  >
+    Valencia
+  </div>
+</div>
+<div
+  style={{
+    background:
+      "linear-gradient(180deg,#7A001F 0%,#4A0013 60%,#240008 100%)",
+    border: "1.5px solid rgba(255,215,0,.6)",
+    borderRadius: "28px",
+    padding: "28px",
+    boxShadow:
+      "0 10px 30px rgba(0,0,0,.45), 0 0 15px rgba(255,215,0,.18)",
+    transition: ".3s",
+  }}
+>
+  <div
+    style={{
+      color: "#FFD700",
+      fontSize: "24px",
+      marginBottom: "18px",
+      letterSpacing: "3px",
+    }}
+  >
+    ★★★★★
+  </div>
+
+  <p
+    style={{
+      fontSize: "18px",
+      lineHeight: "1.8",
+      color: "#F5F5F5",
+      fontStyle: "italic",
+    }}
+  >
+   La consulta fue cercana,y acertó bastante en lo que le pregunté.
+  </p>
+
+  <div
+    style={{
+      marginTop: "22px",
+      color: "#FFD700",
+      fontWeight: "bold",
+      fontSize: "18px",
+    }}
+  >
+    Javier P.
+  </div>
+
+  <div
+    style={{
+      color: "#C9C9C9",
+      fontSize: "15px",
+    }}
+  >
+    Zaragoza
+  </div>
+</div>
+<div
+  style={{
+    background:
+      "linear-gradient(180deg,#7A001F 0%,#4A0013 60%,#240008 100%)",
+    border: "1.5px solid rgba(255,215,0,.6)",
+    borderRadius: "28px",
+    padding: "28px",
+    boxShadow:
+      "0 10px 30px rgba(0,0,0,.45), 0 0 15px rgba(255,215,0,.18)",
+    transition: ".3s",
+  }}
+>
+  <div
+    style={{
+      color: "#FFD700",
+      fontSize: "24px",
+      marginBottom: "18px",
+      letterSpacing: "3px",
+    }}
+  >
+    ★★★★★
+  </div>
+
+  <p
+    style={{
+      fontSize: "18px",
+      lineHeight: "1.8",
+      color: "#F5F5F5",
+      fontStyle: "italic",
+    }}
+  >
+   M'ha agradat molt la consulta. En Cèsar és molt proper i transmet molta confiança. Vaig sortir amb les idees molt més clares."
+  </p>
+
+  <div
+    style={{
+      marginTop: "22px",
+      color: "#FFD700",
+      fontWeight: "bold",
+      fontSize: "18px",
+    }}
+  >
+   Montse R.
+  </div>
+
+  <div
+    style={{
+      color: "#C9C9C9",
+      fontSize: "15px",
+    }}
+  >
+    Girona
+  </div>
+</div>
+
+  </div>
       </section>
       {/* PREGUNTAS FRECUENTES */}
 
@@ -748,7 +1099,7 @@ export default function Page() {
       </a>
     </div>
 
-    {/* TAROT GIRONA */}
+       {/* TAROT GIRONA */}
     <div
       style={{
         background: "rgba(0,0,0,0.65)",
@@ -787,9 +1138,11 @@ export default function Page() {
         Ver Tarot Girona
       </a>
     </div>
+
   </div>
 </section>
+
     </main>
   </>
-  );
+);
 }
