@@ -750,7 +750,7 @@ Era la primera vegada que consultava un tarot i em va sorprendre la naturalitat 
       fontSize: "18px",
     }}
   >
-    Javier P.
+    Cristina S.
   </div>
 
   <div
