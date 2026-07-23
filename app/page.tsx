@@ -88,79 +88,6 @@ export default function Page() {
 
       </div>
 
-      {/* BOTONES PRINCIPALES (UNO SOBRE OTRO EN PC Y MÓVIL) */}
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          gap: "20px",
-          alignItems: "center",
-          marginTop: "20px",
-          marginBottom: "60px",
-        }}
-      >
-        {/* WHATSAPP */}
-        <a
-          href="https://wa.me/34622091189"
-          target="_blank"
-          style={{
-            width: "260px",
-            height: "70px",
-            backgroundColor: "#00A000",
-            fontFamily: "'Cinzel', serif",
-            color: "#FFFFFF",
-            fontSize: "24px",
-            fontWeight: "bold",
-            textDecoration: "none",
-            borderRadius: "35px",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            boxShadow: "0 0 20px rgba(0,255,0,0.5)",
-            gap: "10px",
-          }}
-        >
-          <span style={{ fontSize: "32px" }}>✆</span>
-          WhatsApp
-        </a>
-
-        {/* LLAMAR */}
-        <a
-          href="tel:622091189"
-          style={{
-            width: "260px",
-            height: "70px",
-            backgroundColor: "#0066FF",
-            fontFamily: "'Cinzel', serif",
-            color: "#FFFFFF",
-            fontSize: "24px",
-            fontWeight: "bold",
-            textDecoration: "none",
-            borderRadius: "35px",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            boxShadow: "0 0 20px rgba(0,102,255,0.6)",
-            gap: "10px",
-          }}
-        >
-          <span style={{ fontSize: "32px" }}>✆</span>
-          Llamar ahora
-        </a>
-      </div>
-      <div
-  style={{
-    textAlign: "center",
-    marginTop: "-30px",
-    marginBottom: "80px",
-    color: "#FFD700",
-    fontFamily: "'Cinzel', serif",
-    fontSize: "20px",
-    fontWeight: "600",
-  }}
->
-  📍 Consultas presenciales en Girona · 📱 Online y llamadas para toda España
-</div>
 
 {/* CÓMO FUNCIONA */}
 <section
@@ -232,7 +159,18 @@ export default function Page() {
       marginBottom: "50px",
       textShadow: "0 0 15px rgba(255,215,0,0.8)",
     }}
-  >
+  ><img
+  src="/IMG/img6.jpeg"
+  alt="Tarot La Fortuna"
+  style={{
+    width: "100%",
+    maxWidth: "520px",
+    borderRadius: "30px",
+    display: "block",
+    margin: "20px auto 60px auto",
+    boxShadow: "0 15px 40px rgba(0,0,0,.45)",
+  }}
+/>
     ¿En qué puedo ayudarte?
   </h2>
 
@@ -943,6 +881,80 @@ Era la primera vegada que consultava un tarot i em va sorprendre la naturalitat 
     </p>
   </div>
 </section>
+
+      {/* BOTONES PRINCIPALES (UNO SOBRE OTRO EN PC Y MÓVIL) */}
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          gap: "20px",
+          alignItems: "center",
+          marginTop: "20px",
+          marginBottom: "60px",
+        }}
+      >
+        {/* RESERVO POR WHATSAPP */}
+        <a
+          href="https://wa.me/34622091189"
+          target="_blank"
+          style={{
+            width: "260px",
+            height: "70px",
+            backgroundColor: "#00A000",
+            fontFamily: "'Cinzel', serif",
+            color: "#FFFFFF",
+            fontSize: "24px",
+            fontWeight: "bold",
+            textDecoration: "none",
+            borderRadius: "35px",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            boxShadow: "0 0 20px rgba(0,255,0,0.5)",
+            gap: "10px",
+          }}
+        >
+          <span style={{ fontSize: "32px" }}>✆</span>
+          WhatsApp
+        </a>
+
+        {/* PREFIERO LLAMAR */}
+        <a
+          href="tel:622091189"
+          style={{
+            width: "260px",
+            height: "70px",
+            backgroundColor: "#0066FF",
+            fontFamily: "'Cinzel', serif",
+            color: "#FFFFFF",
+            fontSize: "24px",
+            fontWeight: "bold",
+            textDecoration: "none",
+            borderRadius: "35px",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            boxShadow: "0 0 20px rgba(0,102,255,0.6)",
+            gap: "10px",
+          }}
+        >
+          <span style={{ fontSize: "32px" }}>✆</span>
+          Llamar ahora
+        </a>
+      </div>
+      <div
+  style={{
+    textAlign: "center",
+    marginTop: "-30px",
+    marginBottom: "80px",
+    color: "#FFD700",
+    fontFamily: "'Cinzel', serif",
+    fontSize: "20px",
+    fontWeight: "600",
+  }}
+>
+  📍 Consultas presenciales en Girona · 📱 Online y llamadas para toda España
+</div>
 
       {/* BIZUM + PRESENCIAL */}
       <section
