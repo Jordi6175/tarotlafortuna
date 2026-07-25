@@ -26,7 +26,24 @@ export default function TarotAmorPage() {
     padding: "60px 20px 40px",
     textAlign: "center",
   }}
+
 >
+ <div
+  style={{
+    display: "flex",
+    justifyContent: "center",
+    marginBottom: "20px",
+  }}
+>
+  <img
+    src="/IMG/cupido.png"
+    alt="Cupido"
+    style={{
+      width: "130px",
+      filter: "drop-shadow(0 0 12px rgba(255,215,0,.55))",
+    }}
+  />
+</div>
   <h1
     style={{
       fontSize: "58px",
