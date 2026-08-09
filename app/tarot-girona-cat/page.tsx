@@ -1,13 +1,24 @@
 
 import type { Metadata } from "next";
 import Image from "next/image";
-import Header from "@/components/Header";
+import Link from "next/link";
+
+
 
 export const metadata: Metadata = {
-  title: "Tarot a Girona | Consultes presencials i online | Tarot La Fortuna",
+  title: "Tarot a Girona en català | Consulta presencial | Tarot La Fortuna",
   description:
-    "Tarotista a Girona. Consultes presencials amb cita prèvia i també per WhatsApp i telèfon. Amor, feina, diners i orientació personal.",
+    "Consulta de tarot a Girona en català. Lectures presencials amb cita prèvia, per trucada o per WhatsApp. Promoció de benvinguda: 20 minuts per 10 €.",
+  alternates: {
+    canonical: "https://tarotlafortuna.com/tarot-girona-cat",
+    languages: {
+      "ca-ES": "https://tarotlafortuna.com/tarot-girona-cat",
+      "es-ES": "https://tarotlafortuna.com/tarot-girona",
+    },
+  },
 };
+
+
 
 const styles = {
   page: {
@@ -63,7 +74,76 @@ const styles = {
 export default function Page() {
   return (
     <>
-      <Header />
+      <header
+  style={{
+    width: "100%",
+    padding: "20px",
+    display: "flex",
+    justifyContent: "center",
+    flexWrap: "wrap",
+    gap: "20px",
+    background: "rgba(0,0,0,0.80)",
+    borderBottom: "2px solid #FFD700",
+    position: "sticky",
+    top: 0,
+    zIndex: 1000,
+  }}
+>
+  <Link
+    href="/"
+    style={{
+      color: "#FFD700",
+      textDecoration: "none",
+      fontWeight: "bold",
+    }}
+  >
+    🏠 Inici
+  </Link>
+
+  <a
+    href="/tarot-amor"
+    style={{
+      color: "#FFD700",
+      textDecoration: "none",
+      fontWeight: "bold",
+    }}
+  >
+    ❤️ Amor
+  </a>
+
+  <a
+    href="/tarot-girona-cat"
+    style={{
+      color: "#FFD700",
+      textDecoration: "none",
+      fontWeight: "bold",
+    }}
+  >
+    📍 Girona
+  </a>
+
+  <a
+    href="/tarot-online"
+    style={{
+      color: "#FFD700",
+      textDecoration: "none",
+      fontWeight: "bold",
+    }}
+  >
+    📱 Online
+  </a>
+
+  <a
+    href="/tarot-whatsapp"
+    style={{
+      color: "#FFD700",
+      textDecoration: "none",
+      fontWeight: "bold",
+    }}
+  >
+    💬 WhatsApp
+  </a>
+</header>
 
       <main style={styles.page}>
         <div style={styles.container}>
@@ -214,7 +294,172 @@ export default function Page() {
     ✆ Reservar consulta
   </a>
 </section>
+```tsx
+<div
+  style={{
+    ...styles.section,
+    textAlign: "center",
+    background: "rgba(0,0,0,0.45)",
+    padding: "35px 25px",
+    borderRadius: "20px",
+    border: "1px solid rgba(255,215,0,0.35)",
+  }}
+>
+  <h2 style={styles.h2}>
+    Tarifes i formes de consulta
+  </h2>
+
+  <p style={styles.p}>
+    Pots escollir el format que et resulti més còmode. Si vius a Girona
+    o a les comarques gironines, la consulta presencial és l&apos;opció
+    recomanada per poder disposar d&apos;un espai tranquil i personal.
+  </p>
+
+  <div
+    style={{
+      margin: "35px auto",
+      padding: "25px",
+      maxWidth: "650px",
+      borderRadius: "16px",
+      background: "rgba(255,215,0,0.08)",
+      border: "1px solid rgba(255,215,0,0.45)",
+    }}
+  >
+    <h3
+      style={{
+        color: "#FFD700",
+        fontSize: "28px",
+        marginBottom: "15px",
+      }}
+    >
+      🏠 Consulta presencial a Girona
+    </h3>
+
+    <p style={styles.p}>
+      <strong>30 minuts — 30 €</strong>
+      <br />
+      <strong>60 minuts — 50 €</strong>
+    </p>
+  </div>
+
+  <div
+    style={{
+      margin: "25px auto",
+      padding: "25px",
+      maxWidth: "650px",
+      borderRadius: "16px",
+      background: "rgba(255,255,255,0.04)",
+    }}
+  >
+    <h3
+      style={{
+        color: "#FFD700",
+        fontSize: "28px",
+        marginBottom: "15px",
+      }}
+    >
+      📞 Consulta per trucada
+    </h3>
+
+    <p style={styles.p}>
+      El mateix preu que la consulta presencial, segons el temps de la
+      consulta.
+      <br />
+      <strong>30 minuts — 30 €</strong>
+      <br />
+      <strong>60 minuts — 50 €</strong>
+    </p>
+  </div>
+
+  <div
+    style={{
+      margin: "25px auto",
+      padding: "25px",
+      maxWidth: "650px",
+      borderRadius: "16px",
+      background: "rgba(255,255,255,0.04)",
+    }}
+  >
+    <h3
+      style={{
+        color: "#FFD700",
+        fontSize: "28px",
+        marginBottom: "15px",
+      }}
+    >
+      💬 Consulta per WhatsApp
+    </h3>
+
+    <p style={styles.p}>
+      <strong>1 pregunta ràpida — 5 €</strong>
+    </p>
+  </div>
+
+  <p
+    style={{
+      ...styles.p,
+      marginTop: "35px",
+    }}
+  >
+    <strong>Formes de pagament:</strong>
+    <br />
+    Bizum o efectiu.
+  </p>
+
+  <div
+    style={{
+      display: "flex",
+      justifyContent: "center",
+      gap: "15px",
+      flexWrap: "wrap",
+      marginTop: "30px",
+    }}
+  >
+    <a
+      href="tel:+34622091189"
+      style={{
+        display: "inline-flex",
+        alignItems: "center",
+        justifyContent: "center",
+        minWidth: "220px",
+        height: "60px",
+        padding: "0 25px",
+        borderRadius: "35px",
+        background: "#FFD700",
+        color: "#000",
+        textDecoration: "none",
+        fontSize: "21px",
+        fontWeight: "bold",
+      }}
+    >
+      📞 Trucar
+    </a>
+
+    <a
+      href="https://wa.me/34622091189"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{
+        display: "inline-flex",
+        alignItems: "center",
+        justifyContent: "center",
+        minWidth: "220px",
+        height: "60px",
+        padding: "0 25px",
+        borderRadius: "35px",
+        background: "#16a34a",
+        color: "white",
+        textDecoration: "none",
+        fontSize: "21px",
+        fontWeight: "bold",
+      }}
+    >
+      💬 WhatsApp
+    </a>
+  </div>
+</div>
 ```
+
 
 
           <div style={styles.divider}></div>
