@@ -71,6 +71,85 @@ export default function Page() {
           presencial con cita previa o, si lo prefieres, mediante WhatsApp o
           llamada desde cualquier punto de España.
         </p>
+        <section
+  style={{
+    marginTop: "45px",
+    marginBottom: "45px",
+    padding: "35px 25px",
+    textAlign: "center",
+    border: "1px solid rgba(255,215,0,0.65)",
+    borderRadius: "18px",
+    background: "rgba(0,0,0,0.72)",
+    boxShadow: "0 0 30px rgba(255,215,0,0.12)",
+  }}
+>
+  <h2
+    style={{
+      color: "#FFD700",
+      fontSize: "34px",
+      marginBottom: "15px",
+      fontFamily: "serif",
+      fontStyle: "italic",
+    }}
+  >
+    ✨ Promoción de bienvenida ✨
+  </h2>
+
+  <p
+    style={{
+      color: "#FFD700",
+      fontSize: "38px",
+      fontWeight: "bold",
+      margin: "10px 0 25px",
+    }}
+  >
+    20 minutos · 10 €
+  </p>
+
+  <p
+    style={{
+      ...styles.p,
+      maxWidth: "700px",
+      margin: "0 auto 25px",
+    }}
+  >
+    Si es tu primera consulta de tarot con Tarot La Fortuna, puedes
+    aprovechar esta promoción especial de bienvenida.
+  </p>
+
+  <p
+    style={{
+      color: "#FFD700",
+      fontSize: "19px",
+      fontStyle: "italic",
+      marginBottom: "30px",
+    }}
+  >
+    Oferta para nuevos clientes.
+  </p>
+
+  <a
+    href="https://wa.me/34622091189"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      display: "inline-flex",
+      alignItems: "center",
+      justifyContent: "center",
+      width: "260px",
+      height: "62px",
+      borderRadius: "35px",
+      background: "#16a34a",
+      color: "white",
+      textDecoration: "none",
+      fontSize: "22px",
+      fontWeight: "bold",
+      boxShadow: "0 0 22px rgba(22,163,74,.45)",
+    }}
+  >
+    ✆ Reservar consulta
+  </a>
+</section>
 
         <div style={styles.divider}></div>
 
