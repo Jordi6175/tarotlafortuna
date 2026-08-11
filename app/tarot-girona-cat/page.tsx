@@ -9,14 +9,15 @@ export const metadata: Metadata = {
   title: "Tarot a Girona en català | Consulta presencial | Tarot La Fortuna",
   description:
     "Consulta de tarot a Girona en català. Lectures presencials amb cita prèvia, per trucada o per WhatsApp. Promoció de benvinguda: 20 minuts per 10 €.",
-  alternates: {
-    canonical: "https://tarotlafortuna.com/tarot-girona-cat",
-    languages: {
-      "ca-ES": "https://tarotlafortuna.com/tarot-girona-cat",
-      "es-ES": "https://tarotlafortuna.com/tarot-girona",
-    },
+alternates: {
+  canonical: "https://tarotlafortuna.com/tarot-girona-cat",
+  languages: {
+    "ca-ES": "https://tarotlafortuna.com/tarot-girona-cat",
+    "es-ES": "https://tarotlafortuna.com/tarot-girona",
   },
-};
+},
+}
+  
 
 
 
@@ -150,6 +151,112 @@ export default function Page() {
           <h1 style={styles.h1}>
             Tarot a Girona
           </h1>
+          <div
+  style={{
+    margin: "10px auto 45px",
+    padding: "30px 25px",
+    maxWidth: "700px",
+    textAlign: "center",
+    borderRadius: "20px",
+    background: "rgba(0,0,0,0.65)",
+    border: "2px solid #FFD700",
+    boxShadow: "0 0 30px rgba(255,215,0,0.20)",
+  }}
+>
+  <h2
+    style={{
+      color: "#FFD700",
+      fontSize: "30px",
+      marginBottom: "10px",
+      textTransform: "uppercase",
+    }}
+  >
+    Promoció de benvinguda
+  </h2>
+
+  <p
+    style={{
+      color: "#FFD700",
+      fontSize: "42px",
+      fontWeight: "bold",
+      margin: "10px 0",
+      textShadow: "0 0 12px rgba(255,215,0,.45)",
+    }}
+  >
+    20 minuts · 10 €
+  </p>
+
+  <p
+    style={{
+      ...styles.p,
+      marginBottom: "25px",
+    }}
+  >
+    Primera consulta per a nous clients.
+  </p>
+
+  <p
+    style={{
+      ...styles.p,
+      marginBottom: "25px",
+    }}
+  >
+    Pots fer la teva primera consulta presencial, per telefon o whatsapp a Girona i conèixer
+    el servei per només 10 €.
+  </p>
+
+  <div
+    style={{
+      display: "flex",
+      justifyContent: "center",
+      gap: "15px",
+      flexWrap: "wrap",
+      marginTop: "25px",
+    }}
+  >
+    <a
+      href="tel:+34622091189"
+      style={{
+        display: "inline-flex",
+        alignItems: "center",
+        justifyContent: "center",
+        minWidth: "200px",
+        height: "58px",
+        padding: "0 25px",
+        borderRadius: "32px",
+        background: "#FFD700",
+        color: "#000",
+        textDecoration: "none",
+        fontSize: "20px",
+        fontWeight: "bold",
+      }}
+    >
+      📞 Trucar
+    </a>
+
+    <a
+      href="https://wa.me/34622091189"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{
+        display: "inline-flex",
+        alignItems: "center",
+        justifyContent: "center",
+        minWidth: "200px",
+        height: "58px",
+        padding: "0 25px",
+        borderRadius: "32px",
+        background: "#16a34a",
+        color: "white",
+        textDecoration: "none",
+        fontSize: "20px",
+        fontWeight: "bold",
+      }}
+    >
+      💬 WhatsApp
+    </a>
+  </div>
+</div>
 
           <p style={styles.p}>
             Busques una consulta de tarot a Girona?
@@ -201,100 +308,6 @@ export default function Page() {
               }}
             />
           </section>
-          ```tsx
-<section
-  style={{
-    marginTop: "55px",
-    marginBottom: "65px",
-    padding: "35px 30px",
-    textAlign: "center",
-    border: "1px solid rgba(255,215,0,0.65)",
-    borderRadius: "18px",
-    background: "rgba(0,0,0,0.72)",
-    boxShadow: "0 0 30px rgba(255,215,0,0.12)",
-  }}
->
-  <h2
-    style={{
-      color: "#FFD700",
-      fontSize: "34px",
-      marginBottom: "15px",
-      fontFamily: "serif",
-      fontStyle: "italic",
-      letterSpacing: "1px",
-    }}
-  >
-    ✨ Promoció de benvinguda ✨
-  </h2>
-
-  <p
-    style={{
-      color: "#FFD700",
-      fontSize: "38px",
-      fontWeight: "bold",
-      margin: "10px 0 25px",
-      letterSpacing: "1px",
-    }}
-  >
-    20 minuts · 10 €
-  </p>
-
-  <p
-    style={{
-      ...styles.p,
-      maxWidth: "700px",
-      margin: "0 auto 20px",
-    }}
-  >
-    Si és la teva primera consulta de tarot amb Tarot La Fortuna, pots
-    aprofitar aquesta promoció especial de benvinguda.
-  </p>
-
-  <p
-    style={{
-      ...styles.p,
-      maxWidth: "700px",
-      margin: "0 auto 25px",
-    }}
-  >
-    Una primera lectura breu per conèixer la consulta, plantejar una
-    pregunta concreta i descobrir com funciona una lectura personalitzada.
-  </p>
-
-  <p
-    style={{
-      color: "#FFD700",
-      fontSize: "19px",
-      fontStyle: "italic",
-      marginBottom: "30px",
-    }}
-  >
-    Oferta per a nous clients · Consulta presencial, telefonica o per WhatsApp a Girona
-  </p>
-
-  <a
-    href="https://wa.me/34622091189"
-    target="_blank"
-    rel="noopener noreferrer"
-    style={{
-      display: "inline-flex",
-      alignItems: "center",
-      justifyContent: "center",
-      width: "260px",
-      height: "62px",
-      borderRadius: "35px",
-      background: "#16a34a",
-      color: "white",
-      textDecoration: "none",
-      fontSize: "22px",
-      fontWeight: "bold",
-      boxShadow: "0 0 22px rgba(22,163,74,.45)",
-    }}
-  >
-    ✆ Reservar consulta
-  </a>
-</section>
-```tsx
 <div
   style={{
     ...styles.section,
@@ -458,7 +471,7 @@ export default function Page() {
     </a>
   </div>
 </div>
-```
+
 
 
 
