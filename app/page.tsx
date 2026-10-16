@@ -10,7 +10,7 @@ export default function Page() {
       style={{
         minHeight: "100dvh",
         backgroundImage:
-          "linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('/IMG/fondoweb.jpg')",
+          "linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('/img/fondoweb.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -50,7 +50,7 @@ export default function Page() {
          */}
         
 <img
-  src="/IMG/encapuchado.png"
+  src="/img/encapuchado.png"
   alt="encapuchado"
   style={{
     width: "260px",
@@ -160,7 +160,7 @@ export default function Page() {
       textShadow: "0 0 15px rgba(255,215,0,0.8)",
     }}
   ><img
-  src="/IMG/img6.jpeg"
+  src="/img/img6.jpeg"
   alt="Tarot La Fortuna"
   style={{
     width: "100%",

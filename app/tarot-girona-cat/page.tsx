@@ -27,7 +27,7 @@ const styles = {
     padding: "60px 20px 100px",
     backgroundColor: "#000",
     backgroundImage:
-      "linear-gradient(rgba(0,0,0,0.72), rgba(0,0,0,0.72)), url('/IMG/fondoweb.jpg')",
+      "linear-gradient(rgba(0,0,0,0.72), rgba(0,0,0,0.72)), url('/img/fondoweb.jpg')",
     backgroundSize: "100% auto",
     backgroundPosition: "center top",
     backgroundRepeat: "repeat-y",
@@ -293,7 +293,7 @@ export default function Page() {
             </p>
 
             <Image
-              src="/IMG/img01.jpeg"
+              src="/img/img01.jpeg"
               alt="Consulta de tarot presencial a Girona a Tarot La Fortuna"
               width={800}
               height={600}

@@ -10,7 +10,7 @@ const styles = {
   page: {
     minHeight: "100vh",
     backgroundImage:
-      "linear-gradient(rgba(0,0,0,0.72), rgba(0,0,0,0.72)), url('/IMG/fondoweb.jpg')",
+      "linear-gradient(rgba(0,0,0,0.72), rgba(0,0,0,0.72)), url('/img/fondoweb.jpg')",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
@@ -120,7 +120,7 @@ Si prefieres realizar tu consulta desde casa, puedes acceder a una consulta de t
 
 <img
   
-  src="/IMG/img2.jpeg"
+  src="/img/img2.jpeg"
   alt="Tirada del tarot online"
   style={{
     width: "100%",

@@ -10,7 +10,7 @@ const styles = {
   page: {
     minHeight: "100vh",
     backgroundImage:
-      "linear-gradient(rgba(0,0,0,0.72), rgba(0,0,0,0.72)), url('/IMG/fondoweb.jpg')",
+      "linear-gradient(rgba(0,0,0,0.72), rgba(0,0,0,0.72)), url('/img/fondoweb.jpg')",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
@@ -114,7 +114,7 @@ export default function Page() {
   </ul>
 </section>
   <img
-  src="/IMG/img4.jpeg"
+  src="/img/img4.jpeg"
   alt="Tirada del tarot del amor"
   style={{
     width: "100%",
