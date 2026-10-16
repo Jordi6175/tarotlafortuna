@@ -11,7 +11,7 @@ const styles = {
   page: {
     minHeight: "100vh",
     backgroundImage:
-      "linear-gradient(rgba(0,0,0,0.72), rgba(0,0,0,0.72)), url('/IMG/fondoweb.jpg')",
+      "linear-gradient(rgba(0,0,0,0.72), rgba(0,0,0,0.72)), url('/img/fondoweb.jpg')",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
@@ -192,7 +192,7 @@ export default function Page() {
     <li>🔮 Consultas generales de orientación.</li>
   </ul>
   <img
-  src="/IMG/img1.jpeg"
+  src="/img/img1.jpeg"
   alt="Tirada de cartas del tarot"
   style={{
     width: "100%",

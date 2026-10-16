@@ -9,7 +9,7 @@ export default function TarotAmorPage() {
         style={{
           minHeight: "100vh",
           backgroundImage:
-            "linear-gradient(rgba(0,0,0,0.70), rgba(0,0,0,0.70)), url('/IMG/fondoweb.jpg')",
+            "linear-gradient(rgba(0,0,0,0.70), rgba(0,0,0,0.70)), url('/img/fondoweb.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
@@ -36,7 +36,7 @@ export default function TarotAmorPage() {
   }}
 >
   <img
-    src="/IMG/cupido.png"
+    src="/img/cupido.png"
     alt="Cupido"
     style={{
       width: "130px",
@@ -67,7 +67,7 @@ export default function TarotAmorPage() {
   </p>
 
   <img
-    src="/IMG/img3.jpeg"
+    src="/img/img3.jpeg"
     alt="Tarot del Amor"
     style={{
       width: "100%",
